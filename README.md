@@ -1,106 +1,92 @@
-# MERN Authentication System
+# 🔐 MERN Authentication System
 
-A full-stack authentication application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The project provides secure user registration, login, authentication, and protected profile access using JSON Web Tokens (JWT).
+A secure full-stack authentication system built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). This project provides user registration, login, password encryption, JWT-based authentication, and protected routes.
 
----
+## 🚀 Live Demo
 
-## Features
-
-* User Registration
-* User Login
-* Secure Password Hashing with bcryptjs
-* JWT-Based Authentication
-* Protected API Routes
-* User Profile Retrieval
-* MongoDB Database Integration
-* React Frontend with Axios API Integration
-* Token Management using Local Storage
-* Authentication Middleware for Route Protection
+* Frontend: https://mern-authentication-system-phi.vercel.app
+* Backend API: https://mern-authentication-system-gii8.onrender.com
 
 ---
 
-## Tech Stack
+## 📌 Features
+
+✅ User Registration
+
+✅ User Login
+
+✅ Password Hashing using bcryptjs
+
+✅ JWT Authentication
+
+✅ Protected Routes
+
+✅ MongoDB Atlas Integration
+
+✅ RESTful APIs
+
+✅ Responsive User Interface
+
+✅ Secure User Data Storage
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 
 * React.js
 * React Router DOM
 * Axios
-* Vite
+* CSS
 
 ### Backend
 
 * Node.js
 * Express.js
-* MongoDB
+* MongoDB Atlas
 * Mongoose
 * JWT (JSON Web Token)
 * bcryptjs
 
+### Deployment
+
+* Vercel (Frontend)
+* Render (Backend)
+* MongoDB Atlas (Database)
+
 ---
 
-## Project Architecture
+## 📂 Project Structure
 
 ```text
-Frontend (React)
-       │
-       ▼
-Axios API Requests
-       │
-       ▼
-Backend (Express.js)
-       │
-       ├── Authentication Routes
-       ├── JWT Middleware
-       └── MongoDB Database
+MERN-Authentication-System
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   └── package.json
+│
+├── backend
+│   ├── config
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── .env
+│   └── server.js
+│
+└── README.md
 ```
 
 ---
 
-## Authentication Flow
-
-### Registration
-
-1. User submits registration form.
-2. Password is hashed using bcryptjs.
-3. User data is stored in MongoDB.
-4. JWT token is generated.
-5. Token is returned to the client.
-
-### Login
-
-1. User enters email and password.
-2. Credentials are verified.
-3. JWT token is generated.
-4. Token is stored in localStorage.
-5. User is redirected to the dashboard.
-
-### Protected Routes
-
-1. Frontend sends JWT token in the Authorization header.
-2. Authentication middleware verifies the token.
-3. Authorized users can access protected resources.
-
----
-
-## API Endpoints
-
-### Authentication
-
-| Method | Endpoint             | Description                    |
-| ------ | -------------------- | ------------------------------ |
-| POST   | `/api/auth/register` | Register a new user            |
-| POST   | `/api/auth/login`    | Login user                     |
-| GET    | `/api/auth/profile`  | Get authenticated user profile |
-
----
-
-## Installation
+## ⚙️ Installation & Setup
 
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Suhanimaurya7575/MERN-Authentication-System.git
+cd MERN-Authentication-System
 ```
 
 ### Backend Setup
@@ -121,43 +107,47 @@ npm run dev
 
 ---
 
-## Environment Variables
+## 🔑 Environment Variables
 
-Create a `.env` file inside the backend directory:
+Create a `.env` file inside the backend folder:
 
 ```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
 PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
 ```
 
 ---
 
-## Learning Outcomes
+## 🔒 Authentication Flow
 
+1. User registers with details.
+2. Password is encrypted using bcryptjs.
+3. User logs in with valid credentials.
+4. JWT token is generated.
+5. Protected routes verify JWT token before granting access.
+
+---
+
+
+
+## 🎯 Learning Outcomes
+
+* MERN Stack Development
 * REST API Development
-* Authentication & Authorization
-* JWT Implementation
-* Password Security using bcryptjs
-* MongoDB Integration
-* React State Management
-* Frontend-Backend Communication
-* Protected Route Handling
+* JWT Authentication
+* Password Security
+* MongoDB Database Management
+* Full Stack Deployment
 
 ---
 
-## Future Improvements
-
-* Form Validation
-* Password Reset Functionality
-* Role-Based Authentication
-* Profile Image Upload
-* Responsive UI Enhancements
-
----
-
-## Author
+## 👩‍💻 Author
 
 **Suhani Maurya**
 
-Built as a full-stack authentication project to demonstrate secure user management and MERN stack development skills.
+---
+
+## 📄 License
+
+This project is created for learning and educational purposes.
