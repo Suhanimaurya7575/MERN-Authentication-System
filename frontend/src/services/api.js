@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const API = axios.create({
-    baseURL: "http://localhost:5000/api/auth",
+    baseURL: "https://mern-authentication-system-gii8.onrender.com",
 });
 
 export default API;
