@@ -39,14 +39,14 @@ body {
 .form-card select,
 .form-card textarea {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #d7d7d7;
   border-radius: 8px;
   font-size: 16px;
 }
 
 .form-card button {
   padding: 12px;
-  background: #2563eb;
+  background: #2d6df6;
   color: white;
   border: none;
   border-radius: 8px;
@@ -95,9 +95,9 @@ body {
 .logout-btn {
   width: 100%;
   padding: 14px;
-  background: #ef4444;
+  background: #e75151;
 
-  color: white;
+  color: rgb(25, 12, 12);
   border: none;
   border-radius: 10px;
 
