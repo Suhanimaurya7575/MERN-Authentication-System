@@ -137,7 +137,6 @@ JWT_SECRET=your_secret_key
 * REST API Development
 * JWT Authentication
 * Password Security
-* MongoDB Database Management
 * Full Stack Deployment
 
 ---
