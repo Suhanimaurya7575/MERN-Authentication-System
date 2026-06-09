@@ -136,6 +136,7 @@ JWT_SECRET=your_secret_key
 * MERN Stack Development
 * REST API Development
 * JWT Authentication
+* MongoDB Management
 * Password Security
 * Full Stack Deployment
 
