@@ -148,6 +148,4 @@ JWT_SECRET=your_secret_key
 
 ---
 
-## 📄 License
 
-This project is created for learning and educational purposes.
