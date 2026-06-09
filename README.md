@@ -142,13 +142,7 @@ JWT_SECRET=your_secret_key
 * MongoDB Management
 * Password Security
 * Full Stack Deployment
-<<<<<<< Updated upstream
 * Problem Solving
-=======
-* Problem solving
-
-
->>>>>>> Stashed changes
 
   
 
