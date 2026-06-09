@@ -40,6 +40,7 @@ A secure full-stack authentication system built using the MERN Stack (MongoDB, E
 * Axios
 * CSS
 
+
 ### Backend
 
 * Node.js
@@ -141,7 +142,13 @@ JWT_SECRET=your_secret_key
 * MongoDB Management
 * Password Security
 * Full Stack Deployment
+<<<<<<< Updated upstream
 * Problem Solving
+=======
+* Problem solving
+
+
+>>>>>>> Stashed changes
 
   
 
