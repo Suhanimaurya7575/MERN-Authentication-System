@@ -48,6 +48,7 @@ A secure full-stack authentication system built using the MERN Stack (MongoDB, E
 * Mongoose
 * JWT (JSON Web Token)
 * bcryptjs
+* JWT Authentication
 
 ### Deployment
 
@@ -126,6 +127,7 @@ JWT_SECRET=your_secret_key
 3. User logs in with valid credentials.
 4. JWT token is generated.
 5. Protected routes verify JWT token before granting access.
+   
 
 ---
 
@@ -140,6 +142,7 @@ JWT_SECRET=your_secret_key
 * Password Security
 * Full Stack Deployment
 * Problem Solving
+  
 
 ---
 
